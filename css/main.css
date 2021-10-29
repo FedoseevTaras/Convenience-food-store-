@@ -1,0 +1,16 @@
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  padding-top: 11px;
+  background-color: #9d8b84;
+}
+.conteiner_header {
+  margin-left: 20px;
+  margin-right: 20px;
+}
