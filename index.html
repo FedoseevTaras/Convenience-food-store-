@@ -12,22 +12,26 @@
     <header>
       <div class="conteiner conteiner_header">
         <ul class="action d-flex">
-          <li class="action_logo">
-            <a href="#">
-              <img src="img/logo.png" alt="Logo" />
-            </a>
-          </li>
-          <li class="action_navigation">
+          <li>
             <nav>
-              <ul class="d-flex">
-                <li class="action_navigation_catalog">
-                  <a class="" href="#"> Каталог </a>
+              <ul class="action_main-navigation d-flex">
+                <li class="action_logo">
+                  <a href="#">
+                    <img src="img/logo.png" alt="Logo" />
+                  </a>
                 </li>
-                <li class="action_navigation_delivery">
-                  <a class="" href="#"> Доставка и оплата </a>
-                </li>
-                <li class="action_navigation_about">
-                  <a class="" href="#"> О компании </a>
+                <li class="action_navigation">
+                  <ul class="d-flex">
+                    <li class="action_navigation_catalog">
+                      <a class="" href="#"> Каталог </a>
+                    </li>
+                    <li class="action_navigation_delivery">
+                      <a class="" href="#"> Доставка и оплата </a>
+                    </li>
+                    <li class="action_navigation_about">
+                      <a class="" href="#"> О компании </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </nav>
@@ -36,19 +40,24 @@
             <section>
               <ul class="action_user-processes d-flex">
                 <li class="action_user-processes_magnifier">
-                  <img src="img/magnifier.png" alt="magnifier" />
+                  <button
+                    class="action_user-processes_magnifier-button"
+                    onclick="javascript:alert('Поиск')"
+                  >
+                    <img src="img/magnifier.png" alt="magnifier" />
+                  </button>
                 </li>
                 <li class="action_user-processes_entrance">
-                  <a class="d-flex" href="#">
+                  <button class="d-flex" onclick="javascript:alert('Вход')">
                     <img src="img/entrance.png" alt="entrance" />
                     <p>Вход</p>
-                  </a>
+                  </button>
                 </li>
                 <li class="action_user-processes_Shopping-cart">
-                  <a class="d-flex" href="#">
+                  <button class="d-flex" onclick="javascript:alert('Корзина')">
                     <img src="img/Shopping-cart.png" alt="Shopping-cart" />
                     <p>Пусто</p>
-                  </a>
+                  </button>
                 </li>
               </ul>
             </section>
@@ -60,5 +69,117 @@
         </section>
       </div>
     </header>
+    <section class="promotion">
+      <div class="conteiner conteiner_promotion">
+        <div class="promotion_icecream">
+          <h4 class="promotion_icecream_title">
+            Крем-брюле и пломбир <br />
+            с малиновым джемом
+          </h4>
+          <button class="btn_red" onclick="javascript:alert('Давайте оба')">
+            Давайте Оба!
+          </button>
+        </div>
+        <div class="d-flex">
+          <div class="promotion_additives promotion_additives_raspberries">
+            <ul>
+              <li class="simple">
+                <h2>Малинка даром!</h2>
+              </li>
+              <li class="simple">
+                При покупке 2 кг любого фруктового мороженого, добавим в ваш за
+              </li>
+              <li class="simple">
+                <button
+                  class="btn_red"
+                  onclick="javascript:alert('Хочу варенье')"
+                >
+                  Хочу варенье!
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="promotion_additives promotion_additives_chocolate">
+            <ul>
+              <li class="simple">Шоколадки даром!</li>
+              <li class="simple">
+                При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкусней
+              </li>
+              <li class="simple">
+                <button
+                  class="btn_red"
+                  onclick="javascript:alert('Хочу шоколадки!')"
+                >
+                  Хочу шоколадки!
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products d-flex">
+      <div class="products_creamy products_creamy-orange">
+        <ul>
+          <li>
+            <h4>310 &#8381/кг</h4>
+          </li>
+          <li>
+            <p>Сливочное с апельсиновым джемом и цитрусовой стружкой </p>
+          </li>
+        </ul>
+      </div>
+      <div class="products_creamy products_creamy-coffe">
+        <ul>
+            <li>
+              <h4>380 &#8381/кг</h4>
+            </li>
+            <li>
+              <p>Сливочно-кофейное с кусочками шоколада</p>
+            </li>
+          </ul>
+      </div>
+      <div class="products_creamy products_creamy-strawberry">
+        <ul>
+            <li>
+              <h4>355 &#8381/кг</h4>
+            </li>
+            <li>
+              <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
+            </li>
+          </ul>
+      </div>
+      <div class="products_creamy products_creamy-brulle">
+        <ul>
+            <li>
+              <h4>415 &#8381/кг</h4>
+            </li>
+            <li>
+              <p>Сливочное крем-брюле с карамельной подливкой</p>
+            </li>
+          </ul>
+      </div>
+    </section>
+    <section class="information-about">
+        <ul>
+            <li></li>
+            <li>
+                <ul>
+                    <li>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
   </body>
 </html>

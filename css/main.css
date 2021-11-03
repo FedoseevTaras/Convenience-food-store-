@@ -8,13 +8,97 @@
 }
 header {
   padding-top: 11px;
-  background-color: #9d8b84;
 }
 .conteiner_header {
   margin-left: 20px;
   margin-right: 20px;
 }
 .telephones {
-  padding-left: 90%;
+  /* padding-left: 89%; */
   width: 170px;
+  margin-left: auto;
+}
+body {
+  font-family: Roboto;
+  font-style: Medium;
+  color: #ffffff;
+  background-color: #87a193;
+  padding-right: 25px;
+}
+a {
+  font-family: Roboto;
+  font-style: Medium;
+  color: #ffffff;
+}
+button {
+  border-radius: 20px;
+  opacity: 90%;
+  background-color: #9db1a5;
+  padding: 6px 22px 6px 22px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: Medium;
+  color: #ffffff;
+}
+
+.action_navigation {
+  width: 358px;
+}
+.action_user-processes {
+  width: 265px;
+}
+.action_user-processes_magnifier-button {
+  border-radius: 50%;
+  padding: 6px;
+}
+.promotion_additives_raspberries {
+  background: url(../img/raspberries.png);
+}
+.promotion_additives_chocolate {
+  background: url(../img/chocolate.png);
+}
+.promotion_additives {
+  border-radius: 10px;
+}
+.promotion_icecream {
+  width: 650px;
+  height: 600px;
+  background-image: url(../img/iceCream1.png), url(../img/iceCream2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.promotion_icecream_title {
+  font-size: 60px;
+  font-family: 'Roboto';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.006;
+}
+.btn_red {
+  background-color: #ec593c;
+}
+.products_creamy {
+  width: 267px;
+  height: 270px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.products_creamy-orange {
+  background-image: url(../img/hit.png), url(../img/creamyOrange.png);
+}
+.products_creamy-coffe {
+  background-image: url(../img/hit.png), url(../img/creamyCoffee.png);
+}
+.products_creamy-strawberry {
+  background-image: url(../img/hit.png), url(../img/creamyStrawberry.png);
+}
+.products_creamy-brulle {
+  background-image: url(../img/hit.png), url(../img/creamyBrulle.png);
+}
+.information-about {
+  background-image: url(../img/);
 }

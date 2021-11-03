@@ -1,10 +1,13 @@
 {
   "folders": [
 	{
+		"path": "../../Dimon/device"
+	},
+	{
 		"path": "."
 	},
 	{
-		"path": "../../Dimon/device"
+		"path": "../../JS/LearnJs/training"
 	}
 ],
   "settings": {}
