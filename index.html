@@ -49,21 +49,25 @@
                 </li>
                 <li class="action_user-processes_entrance">
                   <button class="d-flex" onclick="javascript:alert('Вход')">
-                    <img src="img/entrance.png" alt="entrance" />
-                    <p>Вход</p>
+                    <div class="container_action_user-processes_entrance d-flex">
+                      <img src="img/entrance.png" alt="entrance" />
+                      <p>Вход</p>
+                    </div>
                   </button>
                 </li>
                 <li class="action_user-processes_Shopping-cart">
                   <button class="d-flex" onclick="javascript:alert('Корзина')">
-                    <img src="img/Shopping-cart.png" alt="Shopping-cart" />
-                    <p>Пусто</p>
+                    <div class="conteiner_action_user-processes_Shopping-cart d-flex">
+                      <img src="img/Shopping-cart.png" alt="Shopping-cart" />
+                      <p>Пусто</p>
+                    </div>
                   </button>
                 </li>
               </ul>
             </section>
           </li>
         </ul>
-        <section class="telephones">
+        <section class="telephones d-flex">
           <p>С 10 до 20, ежедневно</p>
           <p>8 812 450-25-25</p>
         </section>
@@ -72,32 +76,40 @@
     <section class="promotion">
       <div class="conteiner conteiner_promotion">
         <div class="promotion_icecream">
-          <h4 class="promotion_icecream_title">
-            Крем-брюле и пломбир <br />
-            с малиновым джемом
-          </h4>
-          <button class="btn_red" onclick="javascript:alert('Давайте оба')">
-            Давайте Оба!
-          </button>
+          <div class="conteiner_promotion_icecream_content d-flex">
+            <h4 class="promotion_icecream_title">
+              Крем-брюле и пломбир 
+              с малиновым джемом
+            </h4>
+            <button class="btn_red" onclick="javascript:alert('Давайте оба')">
+              Давайте оба!
+            </button>
+          </div>
         </div>
         <div class="d-flex">
           <div class="promotion_additives promotion_additives_raspberries">
-            <ul>
-              <li class="simple">
-                <h2>Малинка даром!</h2>
-              </li>
-              <li class="simple">
-                При покупке 2 кг любого фруктового мороженого, добавим в ваш за
-              </li>
-              <li class="simple">
-                <button
-                  class="btn_red"
-                  onclick="javascript:alert('Хочу варенье')"
-                >
-                  Хочу варенье!
-                </button>
-              </li>
-            </ul>
+            <div >
+              <ul class="conteiner_promotion_additives_raspberries d-flex">
+                <li class = " ">
+                  <ul class ="conteiner_promotion_additives_raspberries_description d-flex">
+                    <li class="promotion_additives_raspberries_title">
+                      <h2>Малинка даром!</h2>
+                    </li>
+                    <li class="promotion_additives_raspberries_text">
+                      При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.
+                    </li>
+                  </ul>
+                </li>   
+                <li class="simple">
+                  <button
+                    class="btn_red promotion_additives_raspberries_button"
+                    onclick="javascript:alert('Хочу варенье')"
+                  >
+                    Хочу варенье!
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="promotion_additives promotion_additives_chocolate">
             <ul>
@@ -161,25 +173,136 @@
       </div>
     </section>
     <section class="information-about">
-        <ul>
-            <li></li>
+        <ul class = "information-about_text">
             <li>
-                <ul>
-                    <li>
+              <h4 class="information-about_title">Магазин Глейси — это онлайн и офлайн магазин по продаже морожен</h4>
+            </li>
+            <li>
+                <ul class = "d-flex">
+                    <li >
                         <ul>
-                            <li></li>
-                            <li></li>
+                            <li class = "d-flex">
+                              <img src="../Convinience food/img/iceCreamInformation.png" alt="">
+                              <p>
+                                Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.
+                              </p>
+                            </li>
+                            <li class= "d-flex">
+                                <img src="../Convinience food/img/leafInformation.png" alt="">
+                                <p>
+                                  Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья. 
+                                </p>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <ul>
-                            <li></li>
-                            <li></li>
+                            <li class = "d-flex">
+                              <img src="../Convinience food/img/cowInformation.png" alt="">
+                              <p>
+                                Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
+                              </p>
+                            </li>
+                            <li class="d-flex">
+                              <img src="../Convinience food/img/ thermometerInformation.png" alt="">
+                              <p>
+                                Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.
+                              </p>
+                            </li>
                         </ul>
                     </li>
                 </ul>
             </li>
         </ul>
     </section>
+    <section class="news d-flex">
+      <article class = "news_blog">
+        <div class ="conteiner_news_blog">
+          <h4>Новое в нашем блоге</h4>
+          <a class = "news_blog_recipe" href="#">10 способов сервировки
+            фруктовых щербетов к
+            столу</a>
+        </div>
+      </article>
+      <article class = "news_mailing">
+        <div class="conteiner_news_mailing">
+          <p>
+            Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) 
+          </p>
+          <form>
+            <input type="">
+            <button class = "btn_red">Отправить</button>
+          </form>
+        </div>
+      </article>
+    </section>
+    <section class="map">
+      <img src="../Convinience food/img/mapTemporary.png" alt="">
+    </section>
+    <footer>
+      <ul class="d-flex">
+        <li>
+          <ul class="footer_icons d-flex">
+            <li>
+              <img src="../Convinience food/img/footterTwitter.png" alt="">
+            </li>
+            <li>
+              <img src="../Convinience food/img/footerInstagramm.png" alt="">
+            </li>
+            <li>
+              <img src="../Convinience food/img/footerFacebook.png" alt="">
+            </li>
+            <li>
+              <img src="../Convinience food/img/footerVk.png" alt="">
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li>
+              <ul class="d-flex">
+                <li>
+                  <ul >
+                    <li>
+                      <ul class="d-flex">
+                        <li>
+                          <img src="../Convinience food/img/footerHart.png" alt="">
+                        </li>
+                        <li>
+                          <a href="#">Для поставщиков</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="footer_icons_about-production">
+                      <a href="#">О производстве</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li>
+                      <a href="#">Наши документы</a>
+                    </li>
+                    <li>
+                      <a href="#">Экологические стандарты</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li>
+              <img src="../Convinience food/img/footerHtml.png" alt="">
+            </li>
+            <li>
+              Сделано в HTML Academy © 2017
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

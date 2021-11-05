@@ -1,14 +1,16 @@
 {
   "folders": [
-	{
-		"path": "../../Dimon/device"
-	},
-	{
-		"path": "."
-	},
-	{
-		"path": "../../JS/LearnJs/training"
-	}
-],
-  "settings": {}
+    {
+      "path": "../../Dimon/device"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "../../JS/LearnJs/training"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Convinience food"
+  }
 }

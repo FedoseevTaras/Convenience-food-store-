@@ -6,38 +6,55 @@
   display: flex;
   justify-content: space-between;
 }
+body {
+  padding: 2px 27px 5px;
+}
 header {
   padding-top: 11px;
 }
+
 .conteiner_header {
   margin-left: 20px;
   margin-right: 20px;
 }
+.action {
+  align-items: center;
+}
+.action_main-navigation {
+  align-items: center;
+  width: 535px;
+}
 .telephones {
-  /* padding-left: 89%; */
-  width: 170px;
-  margin-left: auto;
+  height: 45px;
+  text-align: right;
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  flex-direction: column;
+}
+.telephones p:last-child {
+  font-size: 22px;
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto-Medium;
   font-style: Medium;
   color: #ffffff;
   background-color: #87a193;
   padding-right: 25px;
 }
 a {
-  font-family: Roboto;
+  font-family: Roboto-Medium;
   font-style: Medium;
   color: #ffffff;
 }
 button {
   border-radius: 20px;
+  border: 0;
   opacity: 90%;
   background-color: #9db1a5;
   padding: 6px 22px 6px 22px;
   cursor: pointer;
-  font-family: Roboto;
-  font-style: Medium;
+  font-family: Roboto-Medium;
+
   color: #ffffff;
 }
 
@@ -51,24 +68,33 @@ button {
   border-radius: 50%;
   padding: 6px;
 }
-.promotion_additives_raspberries {
-  background: url(../img/raspberries.png);
+.container_action_user-processes_entrance {
+  width: 60px;
 }
-.promotion_additives_chocolate {
-  background: url(../img/chocolate.png);
-}
-.promotion_additives {
-  border-radius: 10px;
+.conteiner_action_user-processes_Shopping-cart {
+  width: 66px;
 }
 .promotion_icecream {
-  width: 650px;
+  width: 700px;
   height: 600px;
   background-image: url(../img/iceCream1.png), url(../img/iceCream2.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom left, right;
+  background-position-x: left, 87%;
+  background-position-y: bottom, 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -30px;
 }
+.conteiner_promotion_icecream_content {
+  flex-direction: column;
+  align-items: center;
+  height: 218px;
+}
+.conteiner_promotion_icecream_content button {
+  font-family: Roboto-Bold;
+  font-size: 32px;
+}
+
 .promotion_icecream_title {
   font-size: 60px;
   font-family: 'Roboto';
@@ -76,8 +102,43 @@ button {
   font-weight: bold;
   line-height: 1.006;
 }
+.promotion_additives_raspberries {
+  background: url(../img/raspberries.png);
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.conteiner_promotion_additives_raspberries {
+  width: 520px;
+  height: 150px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+/* .conteiner_promotion_additives_raspberries li:last-child {
+  align-items: ;
+} */
+.promotion_additives_raspberries_button {
+  font-size: 18px;
+}
+.conteiner_promotion_additives_raspberries_description {
+  height: 80px;
+  flex-direction: column;
+}
+
+.promotion_additives_raspberries_title {
+  font-family: Roboto-Bold;
+  font-size: 35px;
+}
+.promotion_additives_chocolate {
+  background: url(../img/chocolate.png);
+}
+.promotion_additives {
+  border-radius: 10px;
+}
+
 .btn_red {
   background-color: #ec593c;
+  opacity: 100%;
+  font-family: Roboto-Bold;
 }
 .products_creamy {
   width: 267px;
@@ -100,5 +161,37 @@ button {
   background-image: url(../img/hit.png), url(../img/creamyBrulle.png);
 }
 .information-about {
-  background-image: url(../img/);
+  background-image: url(../img/waffle.png);
+  background-repeat: repeat;
+  border-radius: 15px;
+}
+.information-about_text {
+  padding: 5px 23px;
+}
+.news_blog {
+  background-image: url(../img/strawberryNews.png);
+  background-repeat: no-repeat;
+  color: #323232;
+  padding: 5px 270px 15px 20px;
+}
+
+.conteiner_news_blog {
+}
+.news_blog_recipe {
+  color: #323232;
+}
+.news_mailing {
+  background-image: url(../img/mailEdging.png);
+  background-repeat: no-repeat;
+}
+.conteiner_news_mailing {
+  background-color: #f8f7f4;
+  color: #5a5a5a;
+  margin: 5px;
+}
+.footer_icons {
+  width: 180px;
+}
+.footer_icons_about-production {
+  text-align: right;
 }
