@@ -7,15 +7,35 @@
   justify-content: space-between;
 }
 body {
-  padding: 2px 27px 5px;
+  padding: 0;
 }
-header {
-  padding-top: 11px;
+.conteiner_body {
+  max-width: 1200px;
+  width: 100%;
+  padding: 10px 27px 5px;
+  font-family: Roboto-Medium;
+  font-style: Medium;
+  color: #ffffff;
+  background-color: #87a193;
+  margin-left: auto;
+  margin-right: auto;
 }
+button {
+  border-radius: 20px;
+  border: 0;
+  opacity: 90%;
+  background-color: #9db1a5;
+  padding: 6px 22px 6px 22px;
+  cursor: pointer;
+  font-family: Roboto-Medium;
 
-.conteiner_header {
-  margin-left: 20px;
-  margin-right: 20px;
+  color: #ffffff;
+}
+.btn_red {
+  background-color: #ec593c;
+  opacity: 100%;
+  font-family: Roboto-Bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .action {
   align-items: center;
@@ -34,27 +54,9 @@ header {
 .telephones p:last-child {
   font-size: 22px;
 }
-body {
-  font-family: Roboto-Medium;
-  font-style: Medium;
-  color: #ffffff;
-  background-color: #87a193;
-  padding-right: 25px;
-}
 a {
   font-family: Roboto-Medium;
   font-style: Medium;
-  color: #ffffff;
-}
-button {
-  border-radius: 20px;
-  border: 0;
-  opacity: 90%;
-  background-color: #9db1a5;
-  padding: 6px 22px 6px 22px;
-  cursor: pointer;
-  font-family: Roboto-Medium;
-
   color: #ffffff;
 }
 
@@ -89,6 +91,7 @@ button {
   flex-direction: column;
   align-items: center;
   height: 218px;
+  padding-top: 325px;
 }
 .conteiner_promotion_icecream_content button {
   font-family: Roboto-Bold;
@@ -102,51 +105,72 @@ button {
   font-weight: bold;
   line-height: 1.006;
 }
+.promotion_additives {
+  background-repeat: no-repeat;
+  padding: 20px;
+  height: 227px;
+}
 .promotion_additives_raspberries {
   background: url(../img/raspberries.png);
   background-repeat: no-repeat;
-  padding: 20px;
 }
-.conteiner_promotion_additives_raspberries {
+.promotion_additives_chocolate {
+  background: url(../img/chocolate.png);
+  background-repeat: no-repeat;
+}
+.conteiner_promotion_additives {
   width: 520px;
-  height: 150px;
+  height: 190px;
   flex-direction: column;
   align-items: flex-end;
 }
 /* .conteiner_promotion_additives_raspberries li:last-child {
   align-items: ;
 } */
-.promotion_additives_raspberries_button {
+.promotion_additives_button {
   font-size: 18px;
 }
-.conteiner_promotion_additives_raspberries_description {
+.conteiner_promotion_additives_description {
   height: 80px;
   flex-direction: column;
 }
 
-.promotion_additives_raspberries_title {
+.promotion_additives_title {
   font-family: Roboto-Bold;
   font-size: 35px;
+  height: 41px;
 }
-.promotion_additives_chocolate {
-  background: url(../img/chocolate.png);
+.promotion_additives_text {
+  font-size: 18px;
+  height: 22px;
 }
 .promotion_additives {
   border-radius: 10px;
 }
-
-.btn_red {
-  background-color: #ec593c;
-  opacity: 100%;
-  font-family: Roboto-Bold;
+.products {
+  margin-bottom: 80px;
 }
 .products_creamy {
   width: 267px;
   height: 270px;
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom left, right;
+  /* background-position: bottom left, right; */
   margin-left: auto;
   margin-right: auto;
+}
+.products_creamy h4 {
+  font-size: 45px;
+}
+.products_creamy p {
+  font-size: 16px;
+  height: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+.products_creamy_content {
+  height: 100px;
+  flex-direction: column;
+  padding-top: 200px;
 }
 .products_creamy-orange {
   background-image: url(../img/hit.png), url(../img/creamyOrange.png);
@@ -164,34 +188,109 @@ button {
   background-image: url(../img/waffle.png);
   background-repeat: repeat;
   border-radius: 15px;
+  /* max-width: 1150px; */
+  width: 100%;
+  color: #323232;
+  margin-bottom: 40px;
 }
 .information-about_text {
   padding: 5px 23px;
+  height: 270px;
+  flex-direction: column;
+}
+.information-about_title {
+  font-size: 24px;
+  font-family: Roboto-Medium;
+}
+.information-about_content {
+  height: 190px;
+  flex-direction: column;
+}
+.information-about_content p {
+  line-height: 1.5;
+}
+.news {
+  margin-bottom: 40px;
 }
 .news_blog {
   background-image: url(../img/strawberryNews.png);
   background-repeat: no-repeat;
   color: #323232;
   padding: 5px 270px 15px 20px;
+  width: 500px;
+  height: 220px;
+}
+.conteiner_news_blog {
+  height: 150px;
+  flex-direction: column;
 }
 
-.conteiner_news_blog {
+.conteiner_news_blog h4 {
+  font-size: 16px;
+  flex-direction: column;
 }
+.conteiner_news_blog a {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
 .news_blog_recipe {
   color: #323232;
 }
 .news_mailing {
   background-image: url(../img/mailEdging.png);
   background-repeat: no-repeat;
+  padding: 2px;
+  border-radius: 15px;
 }
+
 .conteiner_news_mailing {
   background-color: #f8f7f4;
   color: #5a5a5a;
   margin: 5px;
+  width: 500px;
+  height: 165px;
+  font-size: 16px;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+}
+.conteiner_news_mailing p {
+  font-size: 16px;
+  height: 25px;
+  line-height: 1.5;
+}
+.conteiner_news_mailing form input {
+  width: 65%;
+}
+
+.conteiner_news_mailing form button {
+  font-size: 16px;
 }
 .footer_icons {
   width: 180px;
 }
 .footer_icons_about-production {
   text-align: right;
+}
+.map {
+  margin-bottom: 40px;
+}
+footer {
+  margin-bottom: 40px;
+}
+.footer_social-medias {
+  width: 330px;
+  /* height: 48px;
+  height: 40px; */
+}
+/* .footer_social-medias ul {
+  height: 20px;
+} */
+.footer_social-medias a {
+  font-size: 13px;
+}
+.footer_social-medias_1part {
+  flex-direction: column;
+  height: 40px;
 }
